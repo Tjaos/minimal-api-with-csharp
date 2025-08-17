@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\projetos_dotnet\\minimal-api\\minimal-api.csproj": {}
+    "C:\\thiago-dev\\minimal-api-with-csharp\\minimal-api.csproj": {}
   },
   "projects": {
-    "C:\\dev\\projetos_dotnet\\minimal-api\\minimal-api.csproj": {
+    "C:\\thiago-dev\\minimal-api-with-csharp\\minimal-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\projetos_dotnet\\minimal-api\\minimal-api.csproj",
+        "projectUniqueName": "C:\\thiago-dev\\minimal-api-with-csharp\\minimal-api.csproj",
         "projectName": "minimal-api",
-        "projectPath": "C:\\dev\\projetos_dotnet\\minimal-api\\minimal-api.csproj",
-        "packagesPath": "C:\\Users\\th832\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\projetos_dotnet\\minimal-api\\obj\\",
+        "projectPath": "C:\\thiago-dev\\minimal-api-with-csharp\\minimal-api.csproj",
+        "packagesPath": "C:\\Users\\Mayara\\.nuget\\packages\\",
+        "outputPath": "C:\\thiago-dev\\minimal-api-with-csharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\th832\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Mayara\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"

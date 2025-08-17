@@ -11,6 +11,7 @@ public class DbContexto : DbContext
         _configuracaoAppSettings = configuracaoAppSettings;
     }
     public DbSet<Administrador> Administradores { get; set; } = default!;
+    public DbSet<Veiculo> Veiculos { get; set; } = default!;
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -19,6 +20,7 @@ public class DbContexto : DbContext
             {
                 Id = 1,
                 Email = "adm@teste.com",
+                Nome = "Administrador",
                 Senha = "123456",
                 Perfil = "Adm"
             }
