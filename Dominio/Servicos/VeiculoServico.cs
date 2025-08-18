@@ -11,7 +11,7 @@ public class VeiculoServico : IVeiculoServico
     private readonly DbContexto _contexto;
     public VeiculoServico(DbContexto contexto) => _contexto = contexto;
 
-    public List<Veiculo> Todos(int pagina = 1, string? nome = null, string? marca = null)
+    public List<Veiculo> Todos(int? pagina = 1, string? nome = null, string? marca = null)
     {
         var query = _contexto.Veiculos.AsQueryable();
 
@@ -27,7 +27,7 @@ public class VeiculoServico : IVeiculoServico
             query = query.Where(v => v.Marca.ToLower().Contains(marca.ToLower()));
         }
 
-        return query.Skip((pagina - 1) * itensPorPagina).Take(itensPorPagina).ToList();
+        return query.Skip(((pagina ?? 1) - 1) * itensPorPagina).Take(itensPorPagina).ToList();
     }
 
     public Veiculo? BuscaPorId(int id)
