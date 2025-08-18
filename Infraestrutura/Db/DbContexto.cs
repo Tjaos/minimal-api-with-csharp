@@ -20,7 +20,6 @@ public class DbContexto : DbContext
             {
                 Id = 1,
                 Email = "adm@teste.com",
-                Nome = "Administrador",
                 Senha = "123456",
                 Perfil = "Adm"
             }
